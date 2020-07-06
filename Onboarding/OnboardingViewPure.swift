@@ -44,14 +44,14 @@ struct OnboardingViewPure: View {
                             self.slideGesture = value.translation
                         }
                         .onEnded{ value in
-                            if self.slideGesture.width < -150 {
+                            if self.slideGesture.width < -50 {
                                 if self.curSlideIndex < self.data.count - 1 {
                                     withAnimation {
                                         self.curSlideIndex += 1
                                     }
                                 }
                             }
-                            if self.slideGesture.width > 150 {
+                            if self.slideGesture.width > 50 {
                                 if self.curSlideIndex > 0 {
                                     withAnimation {
                                         self.curSlideIndex -= 1
