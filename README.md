@@ -2,6 +2,7 @@
 
 ## Demo
 Video is worth a thousand words
+
 ![Image of Yaktocat](./static/onboarding.gif)
 
 ## Instructions
