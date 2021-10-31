@@ -28,7 +28,8 @@ struct OnboardingStepView: View {
                 .fontWeight(.medium)
                 .multilineTextAlignment(.center)
         }
-    .padding()
+        .padding()
+        .contentShape(Rectangle())
     }
 }
 
